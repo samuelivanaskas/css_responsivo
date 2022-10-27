@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOJA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tarefa.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SEID Store</h1>
+        </div>
+        <div class="botao-menu">
+            <button type="button">Abrir menu</button>
+        </div>
+        <nav class="container">
+            <ul class="menu">
+                <li>
+                    Sobre a loja
+                </li>
+                <li>
+                    Produtos
+
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">Calçados</a>
+                        </li>
+                        <li>
+                            <a href="#">Roupas</a>
+                        </li>
+                        <li>
+                            <a href="#">Óculos</a>
+                        </li>
+                        <li>
+                            <a href="#">Bonés</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </nav>
+    </header>
+    <div class="container conteudo">
+        <main>
+            <section class="sobre">
+                <h2>Sobre a SEID Store</h2>
+                <article class="loja">
+                    <a href="#">
+                        <img src="./central-embassy-498557_960_720.jpg" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ut expedita in neque error quos totam asperiores necessitatibus reprehenderit autem sint dolor et corporis hic, consequatur enim eius dignissimos aspernatur.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ut expedita in neque error quos totam asperiores necessitatibus reprehenderit autem sint dolor et corporis hic, consequatur enim eius dignissimos aspernatur.
+                        </p>
+                    </a>
+                </article>
+            </section>
+        </main>
+        <section>
+            <h2>Produtos</h2>
+            <div class="produtos">
+                <article class="estoque">
+                    <a href="#">
+                        <img src="./footwear-1838767__340.jpg" />
+                        <h3>Lindo sapato à venda</h3>
+                        <strong>Temos tamanho 39, 40, 41, 42, 43, 44 e 45</strong>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </a>
+                </article>
+                <article class="estoque">
+                    <a href="#">
+                        <img src="./closet-912694__340.jpg" />
+                        <h3>Linda camisa à venda</h3>
+                        <strong>Temos tamanho pp, p, m, g, gg e ggg</strong>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </a>
+                </article>
+                <article class="estoque ">
+                    <a href="#">
+                        <img src="./sunglasses-7126342__340.jpg" />
+                        <h3>Lindo óculos à venda</h3>
+                        <strong>Temos vários tipos e estilos</strong>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </a>
+                </article>
+                <article class="estoque">
+                    <a href="#">
+                        <img src="./hat-4405671__340.jpg" />
+                        <h3>Lindo chapéu à venda</h3>
+                        <strong>Temos vários tipos e estilos</strong>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </a>
+                </article>
+            </div>
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('.botao-menu button').click(function() {
+                $('.menu').slideToggle();
+            })
+        })
+    </script>
+</body>
+</html>
