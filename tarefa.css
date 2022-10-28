@@ -81,8 +81,7 @@ header {
 }
 
 .produtos img {
-    max-width: 100%;
-    max-height: 139px;
+    max-height: 100%;
 }
 
 .produtos button {
@@ -139,6 +138,9 @@ section h3 {
         display: block;
         margin-bottom: 32px;
     }
+    
+    .estoque {
+        margin-bottom: 12px;
 
     header div.container {
         flex-direction: column;
