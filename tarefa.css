@@ -196,8 +196,6 @@ section h3 {
     }
 
     .produtos {
-         list-style: none;
-        flex-wrap: wrap;
         display: grid;
         grid-template-columns: repeat(2, 49.50%);
         column-gap: 1%;
