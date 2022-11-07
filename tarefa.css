@@ -112,6 +112,26 @@ section h3 {
     margin-bottom: 16px;
 }
 
+@media screen and (min-width:641px) and (max-width: 1023px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .botao-menu {
+        display: none;
+    }
+
+    .sobre a {
+        font-size: 16px;
+    }
+
+    .produtos img {
+        display: grid;
+        grid-template-columns: repeat(2, 49.50%);
+        column-gap: 1%;
+    }
+}
+
 @media screen and (max-width: 640px) {
     .conteudo  {
         display: block;
@@ -179,26 +199,6 @@ section h3 {
 
     .botao-menu button {
         padding: 8px;
-    }
-}
-
-@media screen and (min-width:641px) and (max-width: 1023px) {
-    .container {
-        max-width: 90%;
-    }
-
-    .botao-menu {
-        display: none;
-    }
-
-    .sobre a {
-        font-size: 16px;
-    }
-
-    .produtos img {
-        display: grid;
-        grid-template-columns: repeat(2, 49.50%);
-        column-gap: 1%;
     }
 }
 
