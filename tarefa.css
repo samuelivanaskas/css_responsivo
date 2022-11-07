@@ -125,10 +125,8 @@ section h3 {
         font-size: 16px;
     }
 
-    .produtos img {
-        display: grid;
-        grid-template-columns: repeat(2, 49.50%);
-        column-gap: 1%;
+    .produtos {
+        grid-template-columns: repeat(2, 49.00%)
     }
 }
 
