@@ -25,6 +25,8 @@ header {
 
 .botao-menu {
     align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .submenu {
