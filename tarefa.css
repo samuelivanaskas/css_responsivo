@@ -23,6 +23,10 @@ header {
     margin-bottom: 56px;
 }
 
+.botao-menu {
+    align-items: center;
+}
+
 .submenu {
     display: none;
     border: 1px solid green;
